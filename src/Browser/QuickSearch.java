@@ -1,5 +1,6 @@
 package Browser;
 
 public interface QuickSearch {
-    //Esta interfaz podrá ser utilizada para implementar otros de los patrones.
+    void searchWord(String word);
+    void searchImage(String imageName);
 }

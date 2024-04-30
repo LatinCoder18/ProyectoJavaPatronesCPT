@@ -24,7 +24,7 @@ public class BrowserCache {
 
     public boolean isSearchOnHistory(String search){
         System.out.println("Cache: Realizando búsqueda previa antes de llamar a BrowserEngine");
-        for(int i = 0; i<= searchHistory.size(); i++){
+        for(int i = 0; i<= searchHistory.size() -1; i++){
             if (searchHistory.get(i).equals(search)) return true;
         }
         return false;
